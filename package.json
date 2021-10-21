@@ -1,0 +1,29 @@
+{
+  "name": "create-charlie",
+  "version": "1.0.0",
+  "description": "project creator for @trollar",
+  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "esnext": "./index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack5079/create-charlie.git"
+  },
+  "author": "Jack <git@5079.ml> (https://5079.ml)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jack5079/create-charlie/issues"
+  },
+  "homepage": "https://github.com/Jack5079/create-charlie#readme",
+  "dependencies": {
+    "isomorphic-git": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.2"
+  }
+}
